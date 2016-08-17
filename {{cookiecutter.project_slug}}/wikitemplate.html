@@ -2,14 +2,14 @@
 {% block content %}
 <div class="col-md-3 col-xs-3 sidebar">
   <ul class="nav nav-sidebar" id="sidebar">
-    {{ sidebar_content }}
+	  {% raw %} {{ sidebar_content }} {% endraw %}
   </ul>
 </div>
 <div class="col-md-9 col-xs-9 col-xs-offset-3 col-md-offset-3">
   <div>
     <!-- Tab panes -->
     <div class="tab-content" id="all-content">
-      {{ tab_content }}
+	    {% raw %} {{ tab_content }} {% endraw %}
     </div>
   </div>
 </div>
